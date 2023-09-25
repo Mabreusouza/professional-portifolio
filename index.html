@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo"><img src="assets/title-banner_1_683x150.png" alt="Marina Souza-title"></div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="#about">About</a></li> 
+               <li><a href="#animation">Animation</a></li> 
+               <li><a href="#illustration">Illustration</a></li> 
+               <li><a href="#thesis">Thesis</a></li> 
+               <li><a href="#contact">Contact</a></li> 
+
+            </ul>
+        </div>
+    </nav>
+<nav id="hamburguer-nav">
+    <div class="logo"><img src="assets/title-banner_1_683x150.png" alt="Marina Souza-title"></div>
+    <div class="hamburguer-menu">
+        <div class="hamburguer-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li> 
+        <li><a href="#animation" onclick="toggleMenu()">Animation</a></li> 
+        <li><a href="#illustration" onclick="toggleMenu()">Illustration</a></li> 
+        <li><a href="#thesis" onclick="toggleMenu()">Thesis</a></li> 
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+    </div>
+    </div>
+</nav>
+
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="assets/Profile-Picture.png" alt="Marina Souza profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">
+            Welcome to my portfolio!</p>
+
+        <h1 class="title">Marina Souza</h1>
+
+        <p class="section__text__p2">
+            2D Animator </p>
+
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('/assets/Resume-Marina-2023.pdf')">
+            Download Resume</button>
+
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="My linkedin profile" 
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/marina-abreu-souza-11783222b/'"
+            />
+
+            <img 
+            src="./assets/Instagram.png" 
+            alt="My Instagram profile" 
+            class="icon" 
+            onclick="location.href='https://www.instagram.com/mar.inarts/'"
+            />
+
+        </div>
+    </div>
+</section>
+
+<section id="animation">
+
+        <div class="animation-title">
+            <img src="assets/IMG_2789.PNG" alt="title"></div>
+
+    <nav id="anim-desktop-nav">
+        <div>
+            <ul class="anim-nav-links">
+               <li><a href="#2Danimation">2D Animation</a></li> 
+               <li><a href="#animation-shorts">Animation Shorts</a></li>
+               <li><a href="#backgrounds">Backgrounds</a></li>
+               <li><a href="#character-design">Character Design</a></li>
+               <li><a href="#storyboards">Storyboards</a></li>
+            </ul>
+        </div>
+    </nav> 
+</section>
+
+<section id="2Danimation">
+
+    <h1 class="sub-section-title">2D Animation</h1>
+
+    <div class="animation-GIF-container">
+        <div class="animation-GIF-gallery">
+            <a href="assets/Animation GIF - 1.gif" class="gif-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Animation GIF - 2.gif" class="gif-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-resize-6.gif" class="gif-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-resize-9.gif" class="gif-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-resize-7.gif" class="gif-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-video-to-gif-5.gif" class="gif-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-video-to-gif-2.gif" class="gif-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Animation GIF - 3.gif" class="gif-8">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Animation GIF - 5.gif" class="gif-9">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/ezgif.com-resize-10.gif" class="gif-10">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>    
+    </div>
+</div> 
+
+</section>
+
+<section id="animation-shorts">
+
+<h1 class="sub-section-title">Animation Shorts</h1>
+
+<div class="shorts-container">
+    <div class="shorts-gallery">
+        <a href="assets/SharingRoots-FinalAnim-Audio.mp4" class="video-1">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+        <a href="assets/FINAL - Bird.mov" class="video-2">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+        <a href="assets/FINAL - Beach Day.mp4" class="video-3">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+        <a href="assets/FINAL - Bigfoot.mp4" class="video-4">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+        <a href="assets/FINAL DOME WITH SOUND _ LOW BITRATE.mp4" class="video-5">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+        <a href="assets/final-yellow.mp4" class="video-6">
+            <i<ion-icon name="expand-outline"></ion-icon></i>
+        </a>
+    </div>
+</div>
+
+</section>
+
+<section id="backgrounds">
+
+
+    <h1 class="sub-section-title">Backgrounds</h1>
+
+    <div class="backgrounds-container">
+        <div class="backgrounds-gallery">
+            <a href="assets/BG - 1.png" class="bg-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 2.png" class="bg-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 3.png" class="bg-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 4.png" class="bg-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 5.png.jpeg" class="bg-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 6.png.jpeg" class="bg-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 7.png.jpeg" class="bg-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 8.png.jpeg" class="bg-8">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 9.png" class="bg-9">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 10.png" class="bg-10">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 11.png" class="bg-11">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 12.png" class="bg-12">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 13.png" class="bg-13">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 14.png" class="bg-14">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 15.png" class="bg-15">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 16.jpg" class="bg-16">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 17.png" class="bg-17">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 18.jpeg" class="bg-18">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 19.png" class="bg-19">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/BG - 20.png" class="bg-20">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="character-design">
+
+    <h1 class="sub-section-title">Character Design</h1>
+
+    <div class="character-design-container">
+        <div class="character-design-gallery">
+            <a href="assets/Character Design - 1.png" class="ch-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 2.png.jpeg" class="ch-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 3.png.jpeg" class="ch-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 4.png" class="ch-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 5.png" class="ch-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 6.png" class="ch-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 7.png" class="ch-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 8.png" class="ch-8">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 9.png" class="ch-9">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 10.png" class="ch-10">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 11.png" class="ch-11">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 12.png" class="ch-12">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 13.png" class="ch-13">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design - 14.png" class="ch-14">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design GIF - 1.gif" class="ch-15">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design GIF - 2.gif" class="ch-16">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Character Design GIF - 3.gif" class="ch-17">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2823.png" class="ch-18">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2822.png" class="ch-19">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="storyboards">
+
+    <h1 class="sub-section-title">Storyboards</h1>
+
+    <div class="storyboard-container">
+        <div class="storyboard-gallery">
+            <a href="assets/MarinaStoryboard1.png" class="story-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/MarinaStoryboard2.png" class="story-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Project_2_-_Storyboard_1.png" class="story-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Project_2_-_Storyboard_2.png" class="story-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Curupira Storyboard.png.jpeg" class="story-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2824.png" class="story-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="thesis">
+
+    <img src="assets/IMG_2790.PNG" alt="title">
+
+    <nav id="thesis-desktop-nav">
+        <div>
+            <ul class="thesis-nav-links">
+               <li><a href="#concept-art">Concept Art</a></li> 
+               <li><a href="#animatic">Animatic</a></li>
+               <li><a href="#thesis-storyboards">Storyboard</a></li>
+               <li><a href="#production">Production</a></li>
+               <li><a href="#final-film">Final Film</a></li>
+            </ul>
+        </div>
+    </nav> 
+
+</section>
+
+<section id="concept-art">
+
+    <h1 class="sub-section-title">Concept Art</h1>
+
+    <div class="thesis-images-container">
+        <div class="thesis-images-gallery">
+            <a href="assets/Thesis - Test Animation GIF 2.gif" class="thesis-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Protagonist_Turnaround_Sheet.PNG" class="thesis-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Thesis - Gallery goes.png" class="thesis-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Thesis - Concept BG 2.png.jpeg" class="thesis-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Thesis - Concept Art.png" class="thesis-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Thesis - Character Design.png" class="thesis-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Thesis - Test Animation GIF.gif" class="thesis-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="animatic">
+
+    <h1 class="sub-section-title">Animatic</h1>
+
+    <div class="coming-soon-1">
+        <img src="assets/IMG_2825.png.jpeg" alt="coming-soon-1"></div>
+    
+</section>
+
+<section id="thesis-storyboards">
+
+    <h1 class="sub-section-title">Storyboard</h1>
+
+    <div class="thesis-storyboards-container">
+        <div class="thesis-storyboards-gallery">
+            <a href="assets/IMG_2488.png" class="thesis-story-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2487.png" class="thesis-story-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2486.png" class="thesis-story-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2485.png" class="thesis-story-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2484.png" class="thesis-story-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2483.png" class="thesis-story-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2482.png" class="thesis-story-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2481.png" class="thesis-story-8">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2480.png" class="thesis-story-9">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IMG_2479.png" class="thesis-story-10">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="production">
+
+    <h1 class="sub-section-title">Production</h1>
+
+    <div class="coming-soon-2">
+        <img src="assets/IMG_2825.png.jpeg" alt="coming-soon-2"></div>
+
+</section>
+
+<section id="final-film">
+
+    <h1 class="sub-section-title">Filnal Film</h1>
+
+    <div class="coming-soon-3">
+        <img src="assets/IMG_2825.png.jpeg" alt="coming-soon-3"></div>
+
+</section>
+
+<section id="illustration">
+
+    <img src="assets/IMG_2792.PNG" alt="title">
+
+    <div class="illustration-container">
+        <div class="illustration-gallery">
+            <a href="assets/IL - 2.png" class="il-1">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 1.png.jpeg" class="il-2">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 3.png" class="il-3">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 4.png" class="il-4">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 5.png" class="il-5">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 6.png" class="il-6">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 7.png" class="il-7">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 8.png" class="il-8">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 9.png" class="il-9">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 10.png" class="il-10">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 11.jpg" class="il-11">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 12.png" class="il-12">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 13.png" class="il-13">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 14.png" class="il-14">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 15.png" class="il-15">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 16.png" class="il-16">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 17.png" class="il-17">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/IL - 18.png.jpeg" class="il-18">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Untitled22_20220101015328.png" class="il-19">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+            <a href="assets/Untitled23_20220103151017.png" class="il-20">
+                <i<ion-icon name="expand-outline"></ion-icon></i>
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section id="about">
+
+    <p class="section__text__p1">More about my</p>
+
+    <h1 class="title">Artist Statement</h1>
+
+    <div class="section-container">
+        <div class="section__pic-container">
+        <img src="./assets/IL - 7.png" alt="Artist Statement picture"/>
+    </div>
+
+    <div class="text-container">
+        <p class="main-text">        Wavy, colorful, and warm. That's how I would describe my artwork. Sometimes more light-hearted and sweet, sometimes more reflective and personal, but always wavy. Why wavy? Curvy lines, bubbly shapes, and wavy hatchures create a sense of fluidiness, softness, and movement. I like the changeable and irregular nature of wavy lines in comparison to more sharp geometric shapes. Being in the ocean, wind, trees, fire, clouds, plants, hair, our clothes, or even in the shape of our muscles and skin. I seek to evoke the smooth gestures and signs present all around us. But using unrealistic vibrant colors that reflect my personal emotions and what I believe brings comfort. Like the golden yellow shimmering light from a window, or the turquoise colors of the water on a river! That’s what I want to capture with my work.
+        </p>
+        <img src="assets/arrow.png" alt="Arrow Icon" class="Icon arrow" onclick="location.href='#projects'">
+    </div>
+</div>
+</section>
+
+<section id="contact">
+
+<h1 class="title">Contact Me</h1>
+<div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="assets/email.png" 
+        alt="Email Icon" 
+        class="icon contact-icon email-icon"/>
+        <p><a href="mailto:example">Example@gmail.com</a></p>
+    </div>
+
+
+        <div class="contact-info-container">
+            <img src="assets/linkedin.png" 
+            alt="linkedin Icon" 
+            class="icon contact-icon"/>
+            <p><a href="https://www.linkedin.com/in/marina-abreu-souza-11783222b/">Linkedin</a></p>
+        </div>
+
+</div>
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li> 
+                <li><a href="#animation">Animation</a></li> 
+                <li><a href="#illustration">Illustration</a></li> 
+                <li><a href="#contact">Contact</a></li> 
+ 
+             </ul>
+        </div>
+    </nav>
+    <div class="copyright-text">
+        <p>Copyright &#169; 2023 Marina Abreu Souza. All rights Reserved.</p>
+       </div>
+       
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
